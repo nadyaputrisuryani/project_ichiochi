@@ -15,3 +15,12 @@ class PersegiPanjang{
   }
 
 }
+void main(){
+  var panjang=5;
+  var lebar =3;
+  var pp = PersegiPanjang(panjang, lebar);
+  var keliling=pp.kelilingPersegiPanjang();
+  var luas =pp.luasPersegiPanjang();
+  print('Keliling Persegi panjang : $keliling');
+  print('Luas persegi Panjang :$luas');
+}
